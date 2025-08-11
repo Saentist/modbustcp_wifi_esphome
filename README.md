@@ -1,6 +1,7 @@
 ESPHOME MODBUSTCP_WIFI gateway
 
 
+```yaml
 esphome:
   name: modbus_tcp_with_interval
   platform: ESP32
@@ -70,3 +71,4 @@ sensor:
       - name: "Temperature (°C)"
       - name: "Redox Potential"
       - name: "pH"
+```
